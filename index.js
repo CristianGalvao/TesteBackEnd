@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req,res)=>{
-    res.send('<span style="color: black">Hello World</span>');
-    console.log("teste")
+    res.send('<span style="color: green">Hello World</span>');
+    console.log("teste");
 });
 
 const PORT = process.env.PORT || 5000;
