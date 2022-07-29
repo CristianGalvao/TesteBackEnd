@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req,res)=>{
-    res.send('<span style="color: green">Hello World</span>');
+    res.send('<span style="color: blue">Hello World</span>');
     console.log("teste");
 });
 
